@@ -7,6 +7,22 @@ body {
     justify-content: center;
 }
 
+a{
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: justify;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
 .wrapper {
     width: 1200px;
     display: flex;
@@ -20,19 +36,123 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #006580;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #f8f0e5;
     min-height: 150px;
+    display: center;    
 }
 .content {
-    background-color: white;
+    background-color: #f8f0e5;
     min-height: 300px;
     padding: 20px;
+    padding-left: 70px;
+    color:#006580
+       
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #f8f0e5;
     min-height: 150px;
+    color: #006580;
+    display:grid;
+    gap: 50px 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
 }
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+  }
+
+tr:hover{
+    background-color: #ffb1a1;
+  }
+
+tr {
+    border-bottom:2px solid #ddd;
+  }
+
+th{
+    background-color: #006580;
+    color: white;
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+iframe{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.rodape{
+    float: left;
+}
+
+.frase{
+    text-align: center;
+}
+
+.itens{
+    list-style-type: none;
+    padding: 0px;
+}  
+
+li{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #ffb1a1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #006580;
+  }
+  textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  
+
+
